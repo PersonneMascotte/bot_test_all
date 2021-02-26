@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 const config = require("./config.json")
 
-//const (nom de la commande) = require("lien vers le fichier ex : ./commandes/.");
+//const (nom de la commande ou de l'event) = require("lien vers le fichier ex : ./commandes/.");
 const commandes = require("./commandes/commandes");
 const ready = require("./events/ready");
 
@@ -16,6 +16,7 @@ client.on("message", message => {
 
 client.on("ready", () => {
 
+    //(nom de l'event a remettre).parse(ready, guildMemberAdd, raw, client);
     ready.parse(ready, client)
 
 });
