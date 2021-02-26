@@ -1,7 +1,6 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
 const config = require("./config.json")
-prefixe = "@"
 
 //const (nom de la commande) = require("lien vers le fichier ex : ./commandes/.");
 const commandes = require("./commandes/commandes");
