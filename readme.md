@@ -14,6 +14,8 @@ Pour faire marcher votre bot il vous faut un config.json, une fois crée il faud
 
 puis une fois cette étape faite il faut appuier sur la touche F5 puis Node.js si vous êtes sur vs code bien entendu
 
-Enfin vous n'avez qu'à suivre les les textes en verts et recopier en changant dans les endroit ou il faut changer.
+Ajouter vos commande au endroit pour. 
+
+Et enfin vous n'avez qu'à suivre les les textes en verts et recopier en changant dans les endroit ou il faut changer.
 
 ENJOY
